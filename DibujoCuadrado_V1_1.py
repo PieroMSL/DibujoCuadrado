@@ -1,6 +1,6 @@
 class Figura:
     def dibujar(self):
-        pass  # Método abstracto, será implementado por las subclases
+        pass  # Méttodo abstracto, será implementado por las subclases
 
 class Cuadrado(Figura):
     def __init__(self, lado, caracter="*"):
